@@ -93,10 +93,10 @@ def check_size(path):
         obj.large_files()
         if not obj.res:
             return 'Error'
-
-    obj.smallfiles()
-    if not obj.res:
-        return 'Error'
+    else:
+        obj.smallfiles()
+        if not obj.res:
+            return 'Error'
 
     time.sleep(7)
     obj.get_report()
