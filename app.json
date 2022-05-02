@@ -1,44 +1,44 @@
 {
-    "name": "Virustotal-Telegram",
-    "description": "A telegram bot which can scan telegram files smaller than 32MB.",
-    "keywords": [
-        "telegram",
-        "virustotal"
-    ],
-    "repository": "https://github.com/LeaonardVoitovich/Virustotal-telegram.git",
-    "env": {
-        "APP_ID": {
-            "description": "Get this value from https://my.telegram.org",
-            "value": "18501384"
-        },
-        "API_HASH": {
-            "description": "Get this value from https://my.telegram.org",
-            "value": "d7ac84c727710f4a8a04f5b753dabbc6"
-        },
-        "BOT_TOKEN": {
-            "description": "Telegram bot token. From Bot_Father",
-            "value": "5363018957:AAEfiyZfH0q6sQhs4fwDDf0Ys75vOk1Y1wI"
-        },
-        "VIRUSTOTAL_API": {
-            "description": "Add your virustotal api.sign up to VirusTotal Community. Once you have a valid VirusTotal Community account you will find your personal API key in your personal settings section. This key is all you need to use the VirusTotal API.",
-            "value": "c543d7da44e0928c52b3adf4c66a7af86b0cf690bce9540a5bbf5dd2dfea9285"
-        },
-        "userid": {
-            "description": "Enter the user id to which the bot should reply. (your user id)",
-            "value": "LLBrukND"
-        }
+  "name": "Virustotal-Telegram",
+  "description": "A telegram bot which can scan telegram files smaller than 32MB.",
+  "keywords": [
+    "telegram",
+    "virustotal"
+  ],
+  "repository": "https://github.com/LeaonardVoitovich/Virustotal-telegram.git",
+  "env": {
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "18501384"
     },
-    "addons": [
-    ],
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "d7ac84c727710f4a8a04f5b753dabbc6"
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram bot token. From Bot_Father",
+      "value": "5363018957:AAEfiyZfH0q6sQhs4fwDDf0Ys75vOk1Y1wI"
+    },
+    "VIRUSTOTAL_API": {
+      "description": "Add your virustotal api.sign up to VirusTotal Community. Once you have a valid VirusTotal Community account you will find your personal API key in your personal settings section. This key is all you need to use the VirusTotal API.",
+      "value": "c543d7da44e0928c52b3adf4c66a7af86b0cf690bce9540a5bbf5dd2dfea9285"
+    },
+    "userid": {
+      "description": "Enter the user id to which the bot should reply. (your user id)",
+      "value": "LLBrukND"
     }
+  },
+  "addons": [
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
 }
